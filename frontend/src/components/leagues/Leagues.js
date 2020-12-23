@@ -34,6 +34,7 @@ class Leagues extends React.Component {
             case 0: return "NFL"
             case 1: return "MLB"
             case 2: return "NBA"
+            case 3: return "NHL" 
             default: return "N/A"
         }
     }
