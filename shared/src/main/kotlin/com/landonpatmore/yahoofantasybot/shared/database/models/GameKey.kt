@@ -29,5 +29,6 @@ data class GameKey(val key: String) {
         const val NFL = "NFL"
         const val MLB = "MLB"
         const val NBA = "NBA"
+        const val NHL = "NHL"
     }
 }
