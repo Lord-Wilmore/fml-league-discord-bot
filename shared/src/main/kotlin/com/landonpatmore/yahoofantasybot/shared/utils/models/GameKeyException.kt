@@ -26,6 +26,6 @@ package com.landonpatmore.yahoofantasybot.shared.utils.models
 
 class GameKeyException(private val variable: EnvVariable.Str) : Exception() {
     override val message: String
-        get() = "Game key (${variable.variable}) is not a valid game key.  Valid options are (NFL, NBA, MLB).  " +
+        get() = "Game key (${variable.variable}) is not a valid game key.  Valid options are (NFL, NBA, MLB, NHL).  " +
                 "Please fix and restart dynos."
 }
