@@ -46,7 +46,7 @@ class EnvVariablesChecker {
         checkString(env)
 
         when (env.variable.toLowerCase()) {
-            "nfl", "nba", "mlb" -> return
+            "nfl", "nba", "mlb", "nhl" -> return
             else -> throw GameKeyException(env)
         }
     }
