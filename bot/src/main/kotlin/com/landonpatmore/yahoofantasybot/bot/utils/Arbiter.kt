@@ -92,9 +92,8 @@ class Arbiter(
             messageBridge.consumer.accept(
                 Message.Generic(
                     """
-                        |Thanks for using me!  I will notify you about things happening in your league in real time!
-                        |Star/fork me on Github: https://github.com/LandonPatmore/yahoo-fantasy-bot
-                        |Having issues?: https://github.com/LandonPatmore/yahoo-fantasy-bot/issues
+                        |Incoming Scores and Standings!
+                        |Official League Page: https://github.com/LandonPatmore/yahoo-fantasy-bot <a href="https://hockey.fantasysports.yahoo.com/hockey/42845">Here</a>
                     """.trimMargin()
                 )
             )
